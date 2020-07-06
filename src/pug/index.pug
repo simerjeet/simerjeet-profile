@@ -48,7 +48,7 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Contact Info
+                        a.nav-link.js-scroll-trigger(href='#contact') Contact Info
 
         // Page Content
         .container-fluid.p-0
@@ -204,7 +204,7 @@ html(lang='en')
             hr.m-0
 
             // Volunteer
-            section#awards.resume-section
+            section#volunteer.resume-section
                 .resume-section-content
                     h2.mb-5 Volunteer Experience
                     ul.fa-ul.mb-0
@@ -252,6 +252,20 @@ html(lang='en')
                         |I am an aspiring chef, and I enjoy spending my free time reading books and cooking.
 
             hr.m-0
+
+            // Contact Info
+            section#contact.resume-section
+                .resume-section-content
+                    h2.mb-5 Contact Info
+                    ul.fa-ul.mb-0
+                        li
+                            i.fas.fa-phone.text-danger
+                            
+                        li
+                            i.fas.fa-at.text-danger
+                    //-        | a(href="/#{url}")
+                        
+                    //-          | a(href="/#{url}")
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
